@@ -1,0 +1,59 @@
+// dataflow 1.2.0.RELEASE log opened at 2018-11-05 19:21:28
+// dataflow 1.2.0.RELEASE log opened at 2018-11-05 19:23:07
+app register --name batch-job --type task --uri file:///Users/tkma04w/Documents/Maven/com/example/TestSpringCloud/0.0.1-SNAPSHOT/TestSpringCloud-0.0.1-SNAPSHOT.jar
+task create myjob --definition batch-job
+task list
+task launch myjob
+task execution list
+exit
+// dataflow 1.2.0.RELEASE log closed at 2018-11-05 19:28:56
+// dataflow 1.2.0.RELEASE log opened at 2018-11-05 19:33:22
+// [failed] app register --name batch-job --type task --uri file:///Users/tkma04w/Documents/Maven/com/example/TestSpringCloud/0.0.1-SNAPSHOT/TestSpringCloud-0.0.1-SNAPSHOT.jar
+task list
+// dataflow 1.2.0.RELEASE log opened at 2018-11-05 19:35:55
+app register --name batch-job --type task --uri file:///Users/tkma04w/Documents/Maven/com/example/TestSpringCloud/0.0.1-SNAPSHOT/TestSpringCloud-0.0.1-SNAPSHOT.jar
+// [failed] task create myjob --definition batch-job
+// [failed] task create myjob --definition batch-job2
+// [failed] task create myjob2 --definition batch-job2
+task create myjob2 --definition batch-job
+task list
+task launch myjob2
+task execution list
+exit
+// dataflow 1.2.0.RELEASE log closed at 2018-11-05 19:46:26
+// dataflow 1.2.0.RELEASE log opened at 2018-11-05 19:46:56
+// dataflow 1.2.0.RELEASE log opened at 2018-11-05 19:48:29
+help
+app register --name batch-job --type task --uri file:///Users/tkma04w/Documents/Maven/com/example/TestSpringCloud/0.0.1-SNAPSHOT/TestSpringCloud-0.0.1-SNAPSHOT.jar
+task create myjob2 --definition batch-job
+task list
+task launch myjob2
+app register --name batch-job --type task --uri file:///Users/tkma04w/Documents/Maven/com/example/TestSpringCloud/0.0.1-SNAPSHOT/TestSpringCloud-0.0.1-SNAPSHOT.jar
+task create job --definition batch-job
+task list
+task launch job
+ runtime apps
+task launch job
+app register --name batch-job --type task --uri file:///Users/tkma04w/Documents/Maven/com/example/TestSpringCloud/0.0.1-SNAPSHOT/TestSpringCloud-0.0.1-SNAPSHOT.jar
+app register --name batch-job --type task --uri file:///Users/tkma04w/Documents/Maven/com/example/TestSpringCloud/0.0.1-SNAPSHOT/TestSpringCloud-0.0.1-SNAPSHOT.jar
+task create job --definition batch-job
+task launch job
+app register --name batch-job --type task --uri file:///Users/tkma04w/Documents/Maven/com/example/TestSpringCloud/0.0.1-SNAPSHOT/TestSpringCloud-0.0.1-SNAPSHOT.jar
+task create myjob --definition batch-job
+task launch myjob
+app register --name batch-job2 --type task --uri file:///Users/tkma04w/Documents/Maven/com/example/TestSpringCloud/0.0.1-SNAPSHOT/TestSpringCloud-0.0.1-SNAPSHOT.jar
+// [failed] task create myjob --definition batch-job
+task create myjob2 --definition batch-job
+task create myjob3 --definition batch-job2
+task launch myjob3
+// [failed] task launch myjob
+// [failed] task launch job
+// dataflow 1.2.0.RELEASE log opened at 2018-11-06 11:29:37
+app register --name batch-job --type task --uri file:///Users/tkma04w/Documents/Maven/com/example/TestSpringCloud/0.0.1-SNAPSHOT/TestSpringCloud-0.0.1-SNAPSHOT.jar
+task create job --definition batch-job
+task launch job
+app register --name batch-job --type task --uri file:///Users/tkma04w/Documents/Maven/com/example/TestSpringCloud/0.0.1-SNAPSHOT/TestSpringCloud-0.0.1-SNAPSHOT.jar
+task create job --definition batch-job
+task launch job
+// [failed] app register --name batch-job --type task --uri maven:///Users/tkma04w/Documents/Maven/com/example/TestSpringCloud/0.0.1-SNAPSHOT/TestSpringCloud-0.0.1-SNAPSHOT.jar
+// [failed] stream create --name batch-job --definition 'batch-job'
